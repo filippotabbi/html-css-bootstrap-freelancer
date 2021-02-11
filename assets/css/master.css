@@ -42,7 +42,7 @@ h1{
   margin: 15px auto 5px auto;
 }
 
-hr {
+ .inline.white{
   color: #ffffff;
   width: 10%;
   vertical-align: middle;
@@ -80,13 +80,13 @@ h2{
   color: black;
 }
 ]
-hr.white {
+.white {
   color: #ffffff;
   width: 10%;
   vertical-align: middle;
   border: 2px solid white;
 }
-hr.black {
+.black {
   color: black;
   width: 10%;
   vertical-align: middle;
@@ -97,4 +97,65 @@ hr.black {
 }
 .title_tron{
   padding: 20px 0 10px 0;
+  text-align: center;
+}
+.about{
+  color: #ffffff;
+  background-color: #1abc9c;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.descr_about{
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+.fa-download{
+color: white;
+padding: 5px;
+text-align: center;
+}
+a.btn.btn-primary.btn-lg.active{
+  background-color: #1abc9c;
+  border: 1px solid white;
+  color: white;
+}
+
+.contact_title{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.row.contact {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+input{
+  width: 100%;
+  border: none;
+  line-height: 30px;
+}
+.blue{
+  color: #2c3e50;
+}
+.border-bottom {
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 5px;
+
+}
+
+.foot{
+  background-color: #2c3e50;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.copyrights{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px;
 }
