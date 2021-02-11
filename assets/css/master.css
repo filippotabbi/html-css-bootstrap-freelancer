@@ -4,7 +4,10 @@
   margin-bottom: 0;
 }
 
-
+.row{
+  width: 80%;
+  margin: 0 auto;
+}
  }
 .nav.title{
   font-weight: 800;
@@ -34,12 +37,14 @@ h1{
   background-color: #1abc9c;
   text-align: center;
   font-weight: 700;
+  padding-top: 80px;
 }
 
 .wrapimg{
   height: 200px;
   text-align: center;
   margin: 15px auto 5px auto;
+
 }
 
  .inline.white{
@@ -74,7 +79,7 @@ h1{
 }
 h2{
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
 }
 #black2, #black1 {
   color: black;
@@ -154,8 +159,121 @@ input{
   padding-top: 20px;
   padding-bottom: 30px;
 }
+.btn-social{
+  color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  margin: 5px;
+}
 .copyrights{
-  background-color: #000000;
+  background-color: #1a252f;
   color: #ffffff;
   padding: 30px;
 }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {
+  .jumbo{
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+  .tabella_img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+  .about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+  .contact_title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+  h2{
+    font-size: 36px;
+  }
+  .fa-star{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 992px) {
+  .jumbo{
+    padding-bottom: 40px;
+    font-size: 24px;
+  }
+  .tabella_img{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 24px;
+  }
+  .about{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 24px;
+  }
+  .contact_title{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 24px;
+  }
+  h2{
+    font-size: 38px;
+  }
+  .fa-star{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 28px;
+  }
+
+  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media all and (min-width: 1200px) {
+  .jumbo{
+    padding-bottom: 50px;
+    font-size: 26px;
+  }
+  .tabella_img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 26px;
+  }
+  .about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 26px;
+  }
+  .contact_title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 26px;
+  }
+  h2{
+    font-size: 52px;
+  }
+  .fa-star{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 30px;
+    margin: 25px auto 35px auto;
+  }
+  .wrapimg{
+    height: 300px;
+    text-align: center;
+    margin: 25px auto 35px auto;
+
+  }
+
+   }
